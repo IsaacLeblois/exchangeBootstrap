@@ -1,11 +1,9 @@
-@mixin mform {
-    margin: 40px;
-}
+@import "mixins";
 
 .grid{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    height: 62vh;
+    height: 124vh/2;
     
     .buyform {
         @include mform;
