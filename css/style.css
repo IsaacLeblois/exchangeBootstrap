@@ -1,0 +1,71 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  height: 62vh;
+}
+.grid .buyform {
+  margin: 40px;
+}
+.grid .buyform form .formflex {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.grid .buyform form .formflex select {
+  position: relative;
+  bottom: 5px;
+}
+
+nav ul {
+  display: inline-flex;
+  justify-content: end;
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 13px;
+}
+
+.marketsgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.marketsgrid ul {
+  border-left: solid black;
+  border-right: solid black;
+  list-style: none;
+  text-align: center;
+}
+.marketsgrid ul .ultitle {
+  font-weight: bold;
+}
+.marketsgrid ul .pos {
+  color: #2ecc71;
+}
+.marketsgrid ul .neg {
+  color: #e74c3c;
+}
+.marketsgrid ul li {
+  padding: 12px;
+}
+
+.signupform {
+  margin: 40px;
+}
+.signupform h4 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.signupform .signbtn {
+  display: flex;
+  justify-content: center;
+}
+.signupform #terms {
+  margin: 4px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,82 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    height: 62vh;
+    
+    .buyform {
+        margin: 40px;
+
+        form .formflex {
+            display: inline-flex;
+            justify-content: space-between;
+            width: 100%;
+            align-items: center;
+
+            select {
+            position: relative;
+            bottom: 5px;
+            }
+        }
+    }
+}
+
+nav {
+    ul {
+        display: inline-flex;
+        justify-content: end;
+        width: 100%;
+    }
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 13px;
+}
+
+.marketsgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    ul {
+        border-left: solid black;
+        border-right: solid black;
+        list-style: none;
+        text-align: center;
+
+        .ultitle {
+            font-weight: bold;
+        }
+
+        .pos {
+            color: #2ecc71;
+        }
+
+        .neg {
+            color: #e74c3c;
+        }
+
+        li {
+            padding: 12px;
+        }
+    }
+}
+
+.signupform {
+    margin: 40px;
+
+    h4 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .signbtn {
+        display: flex;
+        justify-content: center;
+    }
+
+    #terms {
+        margin: 4px;
+    }
+}
