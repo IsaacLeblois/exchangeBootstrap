@@ -82,3 +82,50 @@ nav {
         margin: 4px;
     }
 }
+
+@media (max-width: 576px) {
+    .tradinghoy {
+        .colbut {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h5 {
+                min-width: 250px;
+            }
+            a {
+                min-width: 200px;
+            }
+        }
+    }
+    .grid {
+        display: flex;
+        flex-direction: column;
+        font-size: 75%;
+    }
+    .compracripto {
+        font-size: 80%;
+        text-align: center;
+        h5 {
+            font-size: 160%;
+        }
+    }
+    .marketsgrid {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .signupform {
+        display: flex;
+        flex-direction: column;
+        a {
+            min-width: 200px;
+        }
+        .signbtn {
+            display: block;
+            text-align: center;
+        }
+        h4 {
+            font-size: 170%;
+        }
+    }
+}
